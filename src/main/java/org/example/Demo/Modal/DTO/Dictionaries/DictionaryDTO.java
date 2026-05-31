@@ -1,0 +1,17 @@
+package org.example.Demo.Modal.DTO.Dictionaries;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class DictionaryDTO {
+    private Long id;
+    private String code;
+    private String name;
+    private List<DictionaryItemDTO> dictionaryItems;
+}
